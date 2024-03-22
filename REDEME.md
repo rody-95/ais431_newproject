@@ -1,8 +1,8 @@
-# 接口自动化项目，ddt形式
-
+# 脚本项目，关键字驱动
+# author = 'zhangXinLin'
 一、环境依赖：
 1.python3以上，标准库支持： 第三方依赖库：requests，openpyxl，allure
-2.mySQL：版本建议_V5.0以上，依据公司项目而定，pymysql等
+2.mySQL：版本建议_V5.0以上，依据实际情况而定，pymysql等
 3.适用于windows/linux，linux需要额外配置环境及开发规范依据公司标准
 
 二、工程目录解读：
@@ -17,7 +17,7 @@
 |       ├── dbConnect.py                    # 数据库连接池
 |       ├── login.py                        # PC登录
 ├── reports                                 # 生成测试报告的目录地址
-├── testCases                               # 存放测试用例
+├── testCases                               # 存放测试用例，关键字驱动
 ├── tools                                   # 存放第三方工具
 |       ├── allure                          # 配置allure报告
 ├── readme.md                               # 码前必读
@@ -25,4 +25,4 @@
 
 
 三、用前必读：
-1.此项目用于接口自动化，不建议混合UI自动化、关键字驱动开发
+1.此项目用于自动化脚本
